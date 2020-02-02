@@ -5,8 +5,8 @@ var _ = require('lodash');
 var fs = require('fs');
 
 app.use(express.json());
-
-app.listen(3000)
+let port = process.env.PORT || 8080
+app.listen(port)
 
 app.get('/employees', (req, res) => {
   fs.readFile('./src/employees.json', 'utf8', (err, data) => {
