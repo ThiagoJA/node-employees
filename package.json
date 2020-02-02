@@ -2,11 +2,11 @@
   "name": "ambitus",
   "version": "1.0.0",
   "description": "Teste Ambitus",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "test",
-    "dev": "nodemon src/app.js",
-    "start":"nodemon src/app.js"
+    "dev": "nodemon src/index.js",
+    "start":"nodemon src/index.js"
   },
   "author": "ThiagoJA",
   "license": "ISC",
